@@ -13,6 +13,7 @@ The website is also a practical project where I apply what I learn in HTML and C
 * Skills and technologies
 * Projects section
 * Contact information
+* Annimations and pictures
 * Responsive and simple design
 
 ## Technologies Used
@@ -55,6 +56,7 @@ As I continue learning, I plan to improve the website by adding:
 * Better responsive design
 * Improved accessibility
 * JavaScript interactivity
+* Add database connection
 * Additional pages and features
 
 ## Author
