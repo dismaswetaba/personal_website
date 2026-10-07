@@ -37,7 +37,7 @@ I created this website to:
 
 ```text
 personal-website/
-├── index1.html
+├── index.html
 ├── projects1.html
 ├── contacts1.html
 ├──services1.html

@@ -1,19 +1,228 @@
-*, *::before, *::after{margin: 0; padding: 0; box-sizing: border-box; background-color: darkcyan;}
-h1, h2, h3, h4{color: darkblue; font-family: 'Times New Roman', Times, serif; padding: 1rem; margin: 1rem; font-weight: bold;}
-p {color: black; font-size: 1.2rem; font-family: sans-serif;}
-header{background-color: darkgray; color: green; margin: 1rem; padding: 1rem; display: flex;}
-footer{background-color: darkgray; color: blue; margin: 1rem; padding: 1rem; font-family: Arial, Helvetica, sans-serif; display: flex;}
-main{background-color: white; color: black; margin: 1rem; padding: 1rem; font-family: sans-serif; display: flexbox;}
-nav{background-color: darkgray; color: blue; font-weight: bold; margin: 1rem; padding: 1rem; border: 1rem; display: flex; font-size: 1.5rem;}
-.card{columns: 3; display: flexbox; margin: 1rem; padding: 1rem; font-size: 1rem;}
-a:hover{color: darkgreen; background-color: white;}
-a:visited{color:blue}
-input:focus{background-color: white;}
-button{background-color: green; color: black; font-size: 1.5rem; margin: 0.2rem; padding: 0.2rem; font-weight: bold;}
-form{display: flexbox; font-size: 1rem; background-color: lightgreen; color: black; margin: 1rem; padding: 1rem; align-items: center;}
-li{color: black; font-size: 1.3rem; font-weight: bold; background-color: darkgray;}
-h1{font-size: 3.5rem;}
-h2{font-size: 3rem;}
-h3{font-size: 2.2rem;}
-h4{font-size: 1.9rem;}
-table{border-radius: 2px; font-size: 1.2rem; background-color: darkgray; color: black; margin: 0.5rem; padding: 0.5rem; display: flexbox; border-width: 2px;}
+```css
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background */
+body {
+    background-color: darkcyan;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.2rem;
+}
+
+h4 {
+    font-size: 1.9rem;
+}
+
+/* Paragraphs */
+p {
+    color: black;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+/* Header */
+header {
+    background-color: darkgray;
+    color: green;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+/* Navigation */
+nav {
+    background-color: darkgray;
+    color: blue;
+    font-weight: bold;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+/* Navigation list */
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+}
+
+/* Navigation links */
+nav a {
+    display: block;
+}
+
+/* Main content */
+main {
+    background-color: white;
+    color: black;
+    margin: 1rem;
+    padding: 1rem;
+    font-family: sans-serif;
+}
+
+/* Cards */
+.card {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Lists */
+li {
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: darkgray;
+}
+
+/* Links */
+a:hover {
+    color: darkgreen;
+    background-color: white;
+}
+
+a:visited {
+    color: blue;
+}
+
+/* Forms */
+form {
+    font-size: 1rem;
+    background-color: lightgreen;
+    color: black;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+/* Buttons */
+button {
+    background-color: green;
+    color: black;
+    font-size: 1.5rem;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    font-weight: bold;
+}
+
+/* Input */
+input:focus {
+    background-color: white;
+}
+
+/* Tables */
+table {
+    border-radius: 2px;
+    font-size: 1.2rem;
+    background-color: darkgray;
+    color: black;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-width: 2px;
+}
+
+/* Footer */
+footer {
+    background-color: darkgray;
+    color: blue;
+    margin: 1rem;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ----------------------------- */
+/* PHONE / SMALL SCREEN STYLES   */
+/* ----------------------------- */
+
+@media (max-width: 768px) {
+
+    header {
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1.3rem;
+    }
+
+    nav {
+        margin: 0.5rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    main {
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .card {
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    li {
+        font-size: 1rem;
+    }
+
+    footer {
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+}
