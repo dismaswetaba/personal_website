@@ -77,23 +77,26 @@ nav a {
 main {
     background-color: white;
     color: black;
-    margin: 1rem;
+    margin: 0.3rem;
     padding: 1rem;
     font-family: sans-serif;
 }
 
 /* Cards */
 .card {
-    margin: 1rem;
+    margin: 0.5rem;
     padding: 1rem;
     font-size: 1rem;
 }
 
 /* Images videos and table*/
-img video table {
+img{
     max-width: 100%;
     height: auto;
 }
+.myphoto img{display: block; height: 80%; width: auto; aspect-ratio: 4/3; object-fit: contain;}
+video, table {max-width: 100%; height: auto; max-height: 80vh; width: 100%;}
+
 
 /* Lists */
 li {
@@ -120,6 +123,8 @@ form {
     color: black;
     margin: 1rem;
     padding: 1rem;
+    max-width: 60%;
+    height: auto;
 }
 
 /* Buttons */
@@ -146,6 +151,8 @@ table {
     margin: 0.5rem;
     padding: 0.5rem;
     border-width: 2px;
+    max-width: 90%;
+    height: auto;
 }
 
 /* Footer */
@@ -199,12 +206,12 @@ footer {
     }
 
     main {
-        margin: 0.5rem;
+        margin: 0.2rem;
         padding: 0.5rem;
     }
 
     .card {
-        margin: 0.5rem;
+        margin: 0.3rem;
         padding: 0.5rem;
     }
 
@@ -222,7 +229,7 @@ footer {
     }
 
     footer p {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
-    img video table {max-width: 100%; height: auto;}
+    
 }
