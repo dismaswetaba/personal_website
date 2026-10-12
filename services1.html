@@ -81,9 +81,13 @@
                     <input type="text" name="name" id="name" placeholder="Enter provider name" required><br><br>
                     <label for="phone_number">Phone Number: </label>
                     <input type="tel" name="phone_number" id="phone_number" placeholder="e.g 0704993601" required><br><br>
-                    <labe>Gender</labe>
-                    <input type="radio" name="gender" value="Female">Female
-                    <input type="radio" name="gender" value="Male">Male<br><br>
+                    <fieldset>
+                        <legend>Gender</legend>
+                        <label for="male">Male</label>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="female">Female</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                    </fieldset>
                     <label>Location</label>
                     <select name="Location">Location
                         <option value="Nairobi">Nairobi</option>
@@ -97,8 +101,11 @@
                         <option value="Vihiga">Vihiga</option>
                         <option value="Bungoma">Bungoma</option>
                     </select><br><br>
-                    <lable>Accept Terms and conditions</lable>
-                    <input type="checkbox" name="yes" value="yes"><br><br>
+                    <fieldset>
+                        <legend>Complete form</legend>
+                        <label for="yes">Yes</label>
+                        <input type="checkbox" id="yes" value="yes">
+                    </fieldset>
                     <button type="submit">Send</button>
 
                 </form>
