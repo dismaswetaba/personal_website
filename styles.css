@@ -143,19 +143,8 @@ input:focus {
 }
 
 /* Tables */
-.table {
-    border-radius: 2px;
-    font-size: 1rem;
-    background-color: darkgray;
-    color: black;
-    margin: 0.1rem;
-    padding: 0.5rem;
-    border-width: 2px;
-    max-width: 80%;
-    width: 80%;
-    height: auto;
-    object-fit: contain;
-}
+.table{background-color: darkgray; color: black; border: 3px solid black; width: 100%;}
+
 
 /* Footer */
 footer {
