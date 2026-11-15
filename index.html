@@ -1,105 +1,318 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Dismas Home Page</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <h1>Dismas Wetaba</h1>
-            <h3>Navigation Bar</h3>
-                <nav>
-                    <ul>
-                        <li><a href="index1.html">Go to Home</a></li>
-                        <li><a href="https://dismaswetaba.github.io/e_comerce_website/">View E-commerce Website</a></li>
-                        <li><a href="contact1.html">Go to Contacts</a></li>
-                        <li><a href="about1.html">Go to Information</a></li>
-                        <li><a href="projects1.html">Go to Projects</a></li>
-                        <li><a href="services1.html">Go to Services</a></li>
-                        <li><a href="https://google.com">Go to Google</a></li>
-                        <li><a href="https://youtube.com">Go to Youtube</a></li>
-                    </ul>
-                </nav>
-        </header>
-        <main>
-            <h2>My Information</h2>
-            <p>My name is Dismas Wetaba <br>Am a computer science student at Meru University of science and Technology <br>This is my landing page for my Projects and services </p>
-            <section>
-                <h2>Software services</h2>
-                <ul>
-                    <li>We build and sell softwares</li>
-                    <li>We offer proffesional software installation services on new laptops and other computers</li>
-                    <li>We Build customized softwares to solve specific users needs</li>
-                    <li>We build proffesional websites to help bussinesses have online presence</li>
-                    <li>We build tailored E-Comerce website for specific users and bussiness</li>
-                    <li>We Build Cloud Infrastructure for Bussinesses</li>
-                    <li>We build distributed systems for organizations </li>
-                    <li>We Train AI on specific bussiness data</li>
-                </ul>
-            </section>
-            <section class="card">
-                <h2>Hardware Services</h2>
-                <ul>
-                    <li>We Sell high quality hardware divices
-                        <ol class="product">
-                            <li>Laptops
-                                <img src="website_images/laptops.jpg" alt="Laptops"> 
-                                <img src="website_images/laptop.jpg" alt="Laptop">
-                            </li>
-                            <li>Phone
-                            <img src="website_images/phone.jpg" alt="Phone">
-                            </li>
-                            <li>Watch
-                            <img src="website_images/watch.jpg" alt="Watch">
-                            </li>
-                            <li>Ear pod
-                            <img src="website_images/earpods.jpg" alt="Ear Pods">
-                            </li>
-                            <li>Calculator
-                            <img src="website_images/calculator.jpg" alt="Calculator">
-                            </li>
-                        </ol>
-                    </li><br><br>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Dismas Wetaba is a web developer and Computer Science student building responsive, user-friendly websites for businesses and individuals.">
+
+    <meta name="author" content="Dismas Wetaba">
+
+    <title>Dismas Wetaba | Web Developer</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="header">
+
+        <nav class="navbar" aria-label="Main navigation">
+
+            <a href="index.html" class="logo">Dismas<span>.</span></a>
+
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html" class="active" aria-current="page">Home</a>
+                </li>
+                <li><a href="about1.html">About</a></li>
+                <li><a href="services1.html">Services</a></li>
+                <li><a href="projects1.html">Projects</a></li>
+                <li><a href="contact1.html">Contact</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
 
 
-                    <li>We offer professional laptop and phone repair serveces 
-                        <ol>
-                            <li>Mother Board repair</li>
-                            <li>Screen Repair</li>
-                            <li>Ports Repair</li>
-                            <li>Laptop hardware upgradability e.g Ram, External storage</li>
-                            <li>Motherboard Soldering</li>
-                        </ol>
-                    </li>
-                </ul>
-            </section>
-            <aside class="card">
-                <h2>Other Student servicess we offer</h2>
-                <ul>
-                    <li>Gas supply
-                        <img src="website_images/gas.jpg" alt="Gas" width="300" height="300">
-                    </li>
-                    <ul>
-                        <li>Cerials
-                            <img src="website_images/serials.jpg" alt="Serials" width="300" height="300">
-                        </li>
-                        <li>Poshomil
-                            <img src="website_images/poshomill.jpg" alt="Poshomill" width="300" height="300">
-                        </li>
-                        <li>Utensils
-                            <img src="website_images/utensils.jpg" alt="Utensils" width="300" height="300">
-                        </li>
-                    </ul>
-                </ul>
-            </aside>
-            
-        </main>
-        <footer>
-           <p> <em>&copy; This infomation is made available courtesy of Meru University</em> </p>
-           <p><em>Feel free to reach me on my Email:dismaswetaba76@gmail.com or phone number: 0704993601</em></p>
+    <!-- Main Content -->
+    <main>
 
-        </footer>
-    </body>
+        <!-- Hero Section -->
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="hero-greeting">Hello, welcome to my portfolio</p>
+
+                <h1>
+                    Hi, I'm <span>Dismas Wetaba</span>
+                </h1>
+
+                <h2>Web Developer</h2>
+
+                <p class="hero-description">
+                    I build clean, responsive and user-friendly websites
+                    that help businesses and individuals establish
+                    their online presence.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="projects1.html" class="btn btn-primary">
+                        View My Work
+                    </a>
+
+                    <a href="contact1.html" class="btn btn-secondary">
+                        Contact Me
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <img src="website_images/myphoto.jpg"
+                     alt="Portrait of Dismas Wetaba">
+
+            </div>
+
+        </section>
+
+
+        <!-- About Preview -->
+        <section class="about-preview">
+
+            <div class="section-heading">
+
+                <p class="section-subtitle">GET TO KNOW ME</p>
+
+                <h2>About Me</h2>
+
+            </div>
+
+            <p>
+                I am a Computer Science student at Meru University of
+                Science and Technology with a strong interest in
+                software development and web technologies.
+
+                I enjoy building practical projects and applying
+                programming concepts to solve real-world problems.
+            </p>
+
+            <a href="about.html" class="text-link">
+                Learn More About Me →
+            </a>
+
+        </section>
+
+
+        <!-- Services Preview -->
+        <section class="services-preview">
+
+            <div class="section-heading">
+
+                <p class="section-subtitle">WHAT I CAN DO</p>
+
+                <h2>My Services</h2>
+
+                <p>
+                    I help businesses and individuals build their
+                    online presence through web development.
+                </p>
+
+            </div>
+
+
+            <div class="services-container">
+
+                <article class="service-card">
+
+                    <h3>Business Websites</h3>
+
+                    <p>
+                        I create professional websites that help
+                        businesses showcase their services and
+                        reach potential customers.
+                    </p>
+
+                </article>
+
+
+                <article class="service-card">
+
+                    <h3>Landing Pages</h3>
+
+                    <p>
+                        I build attractive landing pages designed
+                        to present products, services and business
+                        information clearly.
+                    </p>
+
+                </article>
+
+
+                <article class="service-card">
+
+                    <h3>Website Redesign</h3>
+
+                    <p>
+                        I improve existing websites by updating
+                        their layouts, appearance and responsiveness.
+                    </p>
+
+                </article>
+
+            </div>
+
+
+            <a href="services1.html" class="text-link">
+                Explore My Services →
+            </a>
+
+        </section>
+
+
+        <!-- Featured Projects -->
+        <section class="projects-preview">
+
+            <div class="section-heading">
+
+                <p class="section-subtitle">MY RECENT WORK</p>
+
+                <h2>Featured Projects</h2>
+
+                <p>
+                    Here are some projects I have developed while
+                    improving my programming and web development skills.
+                </p>
+
+            </div>
+
+
+            <div class="projects-container">
+
+                <article class="project-card">
+
+                    <h3>E-commerce Website</h3>
+
+                    <p>
+                        A practice e-commerce website showcasing
+                        different product categories and providing
+                        customers with WhatsApp ordering options.
+                    </p>
+
+                    <a href="https://dismaswetaba.github.io/e_comerce_website/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        View Project →
+                    </a>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <h3>Shop Receipt System</h3>
+
+                    <p>
+                        A Python project that collects customer
+                        and product information, calculates totals
+                        and generates receipts.
+                    </p>
+
+                    <a href="https://github.com/dismaswetaba/shop-receipt-system/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        View Project →
+                    </a>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <h3>User Configuration Manager</h3>
+
+                    <p>
+                        A Python project that allows users to add,
+                        update, delete and view application settings.
+                    </p>
+
+                    <a href="https://github.com/dismaswetaba/user-configuration-manager/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        View Project →
+                    </a>
+
+                </article>
+
+            </div>
+
+
+            <a href="projects1.html" class="text-link">
+                View All Projects →
+            </a>
+
+        </section>
+
+
+        <!-- Contact Call To Action -->
+        <section class="contact-cta">
+
+            <h2>Have a Website Project in Mind?</h2>
+
+            <p>
+                Let's discuss how I can help you build a professional
+                website for your business or project.
+            </p>
+
+            <a href="contact1.html" class="btn btn-primary">
+                Let's Talk
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <p>
+            &copy; 2026 Dismas Wetaba. All rights reserved.
+        </p>
+
+        <p>
+            Web Developer | Computer Science Student
+        </p>
+
+        <a href="contact1.html">Get in Touch</a>
+
+    </footer>
+
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/254704993601?text=Hello%20Dismas%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project."
+       class="whatsapp-button"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Contact Dismas on WhatsApp">
+
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+            <path fill="currentColor"
+                  d="M16 .5C7.4.5.4 7.4.4 16c0 2.8.7 5.5 2.1 7.9L.3 31.7l8-2.1c2.3 1.3 4.9 2 7.6 2 8.6 0 15.6-7 15.6-15.6S24.6.5 16 .5zm0 28.4c-2.4 0-4.7-.6-6.7-1.9l-.5-.3-4.7 1.2 1.2-4.6-.3-.5c-1.3-2-2-4.4-2-6.8C3 8.6 8.8 2.8 16 2.8S29 8.6 29 16s-5.8 12.9-13 12.9zm7.1-9.7c-.4-.2-2.3-1.1-2.7-1.2-.4-.1-.6-.2-.9.2-.3.4-1 1.2-1.2 1.4-.2.3-.4.3-.8.1-.4-.2-1.7-.6-3.2-2-1.2-1-2-2.3-2.2-2.7-.2-.4 0-.6.2-.8.2-.2.4-.4.6-.7.2-.2.3-.4.4-.6.1-.3.1-.5 0-.7-.1-.2-.9-2.1-1.2-2.9-.3-.8-.7-.7-.9-.7h-.8c-.3 0-.7.1-1.1.5-.4.4-1.4 1.3-1.4 3.2s1.4 3.7 1.6 4c.2.3 2.8 4.3 6.8 6 1 .4 1.8.7 2.4.8 1 .3 1.9.3 2.6.2.8-.1 2.3-.9 2.7-1.8.3-.9.3-1.7.2-1.8-.1-.2-.4-.3-.8-.5z"/>
+        </svg>
+
+        <span>Chat on WhatsApp</span>
+
+    </a>
+
+</body>
 </html>
