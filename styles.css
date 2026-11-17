@@ -1218,3 +1218,54 @@ select:focus-visible {
     }
 
 }
+@media (max-width: 768px) {
+
+.hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+.hero-content {
+    width: 100%;
+}
+
+.hero-image {
+    width: 85%;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+}
+
+.hero-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+}
+
+/* SMALL PHONES */
+
+@media (max-width: 480px) {
+
+.hero {
+    padding: 30px 15px;
+}
+
+.hero-image {
+    width: 90%;
+    max-width: 300px;
+}
+
+.hero-content h1 {
+    font-size: 2rem;
+}
+
+}
